@@ -42,3 +42,7 @@ def get_points():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=10000)
+mkdir loyalty-program
+cd loyalty-program
+npm init -y
+npm install express mongoose cors dotenv
